@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fuentes/BebasNeue.otf');
+    font-family: 'PTSans 3';
+    src: url('../fuentes/PTSans\ 3.ttc');
+}
+
+.logo img {
+    position: relative;
+    bottom: 655px;
+    left: 50px;
+    width: 15%;
+    height: 15%;
+}
+
+.formulario {
+    position: relative;
+    width: 25%;
+    height: 25%;
+    left: 400px;
+    bottom: 520px;
+}
+
+.proyeco {
+    background: #F5F5F5;
+}
+
+.Proyecto-title h1 {
+    color: #46200D;
+    padding: 5px;
+    padding-left: 50px;
+    width: 5.8em;
+    background-color: #E7E7E7;
+    border: 5px solid #E7E7E7;
+    border-top-left-radius: 25px 15px;
+    border-bottom-right-radius: 15px 25px;
+    font-family: 'Bebas Neue';
+}
+
+.Proyecto-title p b {
+    font-family: 'PTSans 3';
+}
+
+.lista-proyecto {
+    font-family: 'PTSans 3';
+    font-style: italic;
+    font-size: 18px;
+}
+
+.zonaComun {
+    position: relative;
+    background: #F5F5F5;
+    padding: 30px 0 80px 0;
+}
+
+.zona-title h1 {
+    color: #46200D;
+    padding: 5px;
+    padding-left: 50px;
+    width: 7.5em;
+    background-color: #E7E7E7;
+    border: 5px solid #E7E7E7;
+    border-top-left-radius: 25px 15px;
+    border-bottom-right-radius: 15px 25px;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+}
+
+.zona-title p {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
