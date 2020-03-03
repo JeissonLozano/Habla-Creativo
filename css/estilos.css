@@ -81,3 +81,170 @@
     margin-right: 0 !important;
     margin-left: 0 !important;
 }
+
+.contactenos {
+    background-image: url(../img/recortes/Remanso-27.png);
+    padding: 35px 0 30px 0;
+}
+
+.contactenos-title h1 {
+    color: #46200D;
+    padding: 3px;
+    padding-left: 50px;
+    width: 6.7em;
+    background-color: #C85B30;
+    border: 5px solid #C85B30;
+    border-top-left-radius: 25px 15px;
+    border-bottom-right-radius: 15px 25px;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+}
+
+.contactenos-title p {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+}
+
+.contenedor-formulario {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputNombre {
+    width: 95%;
+    padding: 20px 10px 5px 20px;
+    margin: 0 0 20px 0;
+    border: white;
+    border-radius: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+.inputCuidad {
+    width: 95%;
+    padding: 20px 10px 5px 20px;
+    margin: 0 0 20px 0;
+    border: white;
+    border-radius: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+.inputCorreo {
+    width: 95%;
+    padding: 20px 10px 5px 20px;
+    margin: 0 0 20px 0;
+    border: white;
+    border-radius: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+.inputCelular {
+    width: 95%;
+    padding: 20px 10px 5px 20px;
+    margin: 0 0 20px 0;
+    border: white;
+    border-radius: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+.inputComentario {
+    width: 58.2%;
+    padding: 15px 10px 5px 20px;
+    margin: 0 0 20px 0;
+    border: white;
+    border-radius: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+.colBtn {
+    margin-left: 90px;
+}
+
+.btnEnviar {
+    width: 18%;
+    margin-left: 30px;
+    padding: 5px 25px;
+    border: white;
+    border-radius: 5px;
+    background-color: #46200D;
+    color: white;
+}
+
+.mapa {
+    background: #F5F5F5;
+    padding: 35px 0 30px 0;
+}
+
+.mapa-title h1 {
+    color: #46200D;
+    padding: 5px;
+    padding-left: 50px;
+    width: 4.5em;
+    background-color: #E7E7E7;
+    border: 5px solid #E7E7E7;
+    border-top-left-radius: 25px 15px;
+    border-bottom-right-radius: 15px 25px;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+}
+
+.mapa-title p {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.marca {
+    background: #fff;
+    padding: 40px 0 50px 0;
+}
+
+.marca-title h1 {
+    color: #46200D;
+    padding: 5px;
+    padding-left: 50px;
+    width: 8.5em;
+    background-color: #E7E7E7;
+    border: 5px solid #E7E7E7;
+    border-top-left-radius: 25px 15px;
+    border-bottom-right-radius: 15px 25px;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+}
+
+.footer {
+    background-image: url(../img/recortes/Remanso-36.png);
+    width: 100%;
+    position: relative;
+    padding: 50px 0 10px 0;
+}
+
+.footer-title h1 {
+    color: #46200D;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+    text-align: center;
+}
+
+.col-footer p {
+    text-align: center;
+    font-family: 'PTSans 3';
+    font-size: 18px;
+}
+
+.col-footer b {
+    font-family: 'PTSans 3';
+    font-size: 18px;
+}
