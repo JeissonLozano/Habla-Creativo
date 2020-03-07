@@ -1,10 +1,22 @@
 @font-face {
     font-family: 'Bebas Neue';
     src: url('../fuentes/BebasNeue.otf');
+}
+
+@font-face {
     font-family: 'PTSans 3';
     src: url('../fuentes/PTSans\ 3.ttc');
 }
 
+/* Inicio Header */
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
 
 .logo img {
     display: flex;
@@ -21,7 +33,7 @@
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     padding: 0px 0 5px 0;
     line-height: 32px;
@@ -72,19 +84,19 @@ ul.mainMenu {
 
 
 .formControl {
-        display: block;
-        width: 100%;
-        height: calc(1.5em + .75rem + 2px);
-        padding: .375rem .75rem;
-        font-size: 11px;
-        font-weight: 400;
-        line-height: 1.5;
-        color: #495057;
-        background-color: #fff;
-        background-clip: padding-box;
-        border: 1px solid #ced4da;
-        border-radius: .25rem;
-        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     
 }
 
@@ -107,13 +119,21 @@ ul.mainMenu {
     display: block;
     margin: auto;
 }
+/* Fin Header */
 
-.proyeco {
+/* Inicio de Proyecto */
+
+
+.proyecto {
     background: #F5F5F5;
 }
 
 .Proyecto-title h1 {
     color: #46200D;
+    font-size: 2.9em;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    padding-top: 15px;
     padding: 5px;
     padding-left: 50px;
     width: 5.8em;
@@ -133,6 +153,14 @@ ul.mainMenu {
     font-style: italic;
     font-size: 18px;
 }
+/* Fin de Proyecto */
+
+/* Inicio Zona comun */
+
+#ZonaComun{
+    max-width: 1100px;
+	margin: 0 auto;
+}
 
 .zonaComun {
     position: relative;
@@ -142,9 +170,12 @@ ul.mainMenu {
 
 .zona-title h1 {
     color: #46200D;
+    font-size: 2.9em;
+    font-weight: 300;
+    letter-spacing: 0.1em;
     padding: 5px;
     padding-left: 50px;
-    width: 7.5em;
+    width: 8.5em;
     background-color: #E7E7E7;
     border: 5px solid #E7E7E7;
     border-top-left-radius: 25px 15px;
@@ -161,14 +192,74 @@ ul.mainMenu {
     font-style: italic;
 }
 
-.container-fluid {
-    width: 100%;
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    margin-right: 0 !important;
-    margin-left: 0 !important;
+.contenedorZonaComun {
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 1100px;
+    margin-bottom: 50px;
+    margin: auto;
 }
 
+.tarjetasZonaComun {
+    margin-bottom: 40px;
+	padding: 0 10px;
+}
+
+
+/* Fin Zona comun */
+
+/* Inicio de apartamentos */
+
+#Apartamentos {
+    max-width: 1100px;
+	margin: 0 auto;
+}
+
+.tituloApartamento{
+    display: block; 
+    margin: auto;
+}
+
+
+.contenedorApartamentos {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 1100px;
+	margin-bottom: 50px;
+}
+
+.PreciosApartamentos {
+    background: url("../img/recortes/Remanso-19.png") no-repeat;
+	width: 1007px;
+	height: 257px;
+}
+
+@media (max-width: 1040px) {
+    .PreciosApartamentos {
+        background: url("../img/recortes/Remanso-20.png") no-repeat;
+		width: 469px;
+		height: 418px;
+	}
+}
+
+@media (max-width: 510px) {
+    .PreciosApartamentos {
+        background-size: 300px;
+		width: 300px;
+		height: 268px;
+	}
+}
+
+.tarjetasApartamentos {
+    margin-bottom: 40px;
+	padding: 0 10px;
+}
+
+/* Fin de apartamentos */
+
+/* Inicio de contactenos */
 .contactenos {
     background-image: url(../img/recortes/Remanso-27.png);
     padding: 35px 0 30px 0;
@@ -176,9 +267,12 @@ ul.mainMenu {
 
 .contactenos-title h1 {
     color: #46200D;
+    font-size: 2.9em;
+    font-weight: 300;
+    letter-spacing: 0.1em;
     padding: 3px;
     padding-left: 50px;
-    width: 6.7em;
+    width: 7.5em;
     background-color: #C85B30;
     border: 5px solid #C85B30;
     border-top-left-radius: 25px 15px;
@@ -265,6 +359,22 @@ ul.mainMenu {
     color: white;
 }
 
+/* Fin de contactenos */
+
+/* Inicio de mapa */
+
+#Marca {
+    max-width: 1100px;
+	margin: 0 auto;
+}
+
+.contenedorMarca {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 1100px;
+}
+
 .mapa {
     background: #F5F5F5;
     padding: 35px 0 30px 0;
@@ -272,9 +382,12 @@ ul.mainMenu {
 
 .mapa-title h1 {
     color: #46200D;
+    font-size: 2.9em;
+    font-weight: 300;
+    letter-spacing: 0.1em;
     padding: 5px;
     padding-left: 50px;
-    width: 4.5em;
+    width: 4.2em;
     background-color: #E7E7E7;
     border: 5px solid #E7E7E7;
     border-top-left-radius: 25px 15px;
@@ -291,6 +404,28 @@ ul.mainMenu {
     font-style: italic;
 }
 
+/* Fin de mapa */
+
+/* Inicio de marca */
+
+#Marca {
+    max-width: 1100px;
+	margin: 0 auto;
+}
+
+.contenedorMarca {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 1100px;
+}
+
+.tarjetasMarca {
+    margin-bottom: 40px;
+	padding: 0 10px;
+}
+
+
 .marca {
     background: #fff;
     padding: 40px 0 50px 0;
@@ -298,9 +433,12 @@ ul.mainMenu {
 
 .marca-title h1 {
     color: #46200D;
+    font-size: 2.9em;
+    font-weight: 300;
+    letter-spacing: 0.1em;
     padding: 5px;
     padding-left: 50px;
-    width: 8.5em;
+    width: 10em;
     background-color: #E7E7E7;
     border: 5px solid #E7E7E7;
     border-top-left-radius: 25px 15px;
@@ -310,28 +448,74 @@ ul.mainMenu {
     text-transform: uppercase;
     font-family: 'Bebas Neue';
 }
+/* Fin de marca */
 
+/* Inicio de footer */
 .footer {
-    background-image: url(../img/recortes/Remanso-36.png);
+    background-image: url("../img/recortes/Remanso-36.png");
     width: 100%;
     position: relative;
     padding: 50px 0 10px 0;
 }
+.footer img {
+    display: block; 
+    margin: auto;
+}
+
 
 .footer-title h1 {
     color: #46200D;
+    font-size: 2.9em;
+    font-weight: 300;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
     font-family: 'Bebas Neue';
     text-align: center;
 }
 
-.col-footer p {
-    text-align: center;
-    font-family: 'PTSans 3';
-    font-size: 18px;
+
+.contenedorFooter {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 1100px;
+	margin-bottom: 50px;
 }
 
-.col-footer b {
+.footer .centrado {
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footerDatos {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 25px 5px 0 5px;
+}
+
+.footerDatos img {
+    display: block; 
+    margin: auto;
+}
+
+
+.info {
+    max-width: 1100px;
+    width: auto;
+	margin: 0 auto;
+	text-align: center;
+    font-family: 'PTSans 3';
+    margin: auto;
+	font-size: 1.1em;
+	line-height: 20px;
+	padding: 0 20px;
+}
+
+.footerDatos b {
     font-family: 'PTSans 3';
     font-size: 18px;
 }
+/* Fin de footer */
